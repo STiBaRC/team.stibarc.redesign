@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav .logo img{
+    height: 35px;
+}
+
+.button.dropdown {
+    margin-left: 0.6rem;
+    font-size: 0.89rem;
+}
+
+.nav {
+    transition: all 0.2s;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.banner {
+    text-align: left;
+    box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.4);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+}
+
+.sti {
+    background-image: url(../images/stibarc_banner.png) ;
+}
+
+.stibarc {
+    background-image: url(../images/stibarc_banner_text.png) ;
+    background-position: center;
+}
+
+.default {
+    background-image: url(../images/banner_dark.png) ; 
+}
+
+.mar-top {
+    padding-top: 25rem;
+}
+
+.texts {
+    font-size: 3.14rem;
+	font-weight: 600;
+}
+
+.texts-small {
+    font-size: 2rem;
+}
+
+.texts-head2 {
+    font-size: 2.4rem;
+	font-weight: 400;
+}
+
+.texts-ssmall {
+    font-size: 1.2rem;
+}
+
+#desk {
+    display: inline;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
+.mocks-small {
+    transition: all 0.2s;
+    border-radius: 15px;
+    display: inline-block;
+    width: 410px;
+}
+
+.center {
+    text-align: center;
+}
+
+.ex {
+    padding-bottom: 2rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: calc(100% - 14px);
+}
+
+.dle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.space {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+}
+
+.mocks {
+    width: 80%;
+}
+
+#ico {
+    display: none;
+}
+
+.bg {
+    background-color: var(--fill);
+}
+
+.footlogo {
+    width: 25vh;
+}
+
+.copyri {
+    font-size: 0.8rem;
+}
+
+.addic {
+    font-size: 0.8rem;
+}
+
+
+@media only screen and (max-width: 740px) {
+    #desk {
+        display: none;
+    }
+
+    .mar-top {
+        padding-top: 15rem;
+    }
+
+    .container.tex {
+        text-align: center;
+    }
+
+    .mocks {
+        width: 100%;
+    }
+
+    #ico {
+        display: block;
+    }
+
+    .mocks-small {
+        width: 100%;
+    }
+
+    .dle {
+    display: inline-block;
+    flex-direction: unset;
+    align-items: center;
+    }
+}
