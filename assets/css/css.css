@@ -107,7 +107,7 @@ p {
 }
 
 .mocks {
-    width: 80%;
+    width: 30%;
 }
 
 #ico {
@@ -115,7 +115,21 @@ p {
 }
 
 .bg {
-    background-color: var(--fill);
+    background-color: rgb(44, 99, 165);
+}
+
+.light-btn {
+    background-color: white;
+    color: black;
+}
+
+.light-btn:hover {
+    background-color: rgb(226, 226, 226);
+    color: black
+}
+
+.left {
+    text-align: left;
 }
 
 .footlogo {
