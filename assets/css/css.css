@@ -85,6 +85,13 @@ p {
     text-align: center;
 }
 
+.centers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .ex {
     padding-bottom: 2rem;
 }
@@ -146,6 +153,10 @@ p {
 
 
 @media only screen and (max-width: 740px) {
+    body {
+        text-align: center;
+    }
+
     #desk {
         display: none;
     }
@@ -175,4 +186,24 @@ p {
     flex-direction: unset;
     align-items: center;
     }
+
+    .nav {
+        text-align: left;
+    }
 }
+
+#screenshots {
+    transition: all 0.2s;
+    border-radius: 15px;
+    display: inline-block;
+    width: 410px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.77);
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    #screenshots {
+        width: 290px;
+    }
+}
+
