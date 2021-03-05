@@ -55,7 +55,7 @@ body {
     max-width: 30vh;
 }
 
-.texts {
+.texts-lg {
     font-size: 3.14rem;
 	font-weight: 600;
 }
@@ -65,12 +65,12 @@ body {
 }
 
 .texts-head2 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 	font-weight: 400;
 }
 
 .texts-ssmall {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #desk {
@@ -80,6 +80,7 @@ body {
 p {
     margin-block-start: 0;
     margin-block-end: 0;
+    margin-bottom: 0.6vh;
 }
 
 
@@ -1202,6 +1203,11 @@ label {
     color: white;
 }
 
+.fif {
+    width: 250px;
+    height: 250px;
+}
+
 .cards, .bomarg {
     margin-bottom: 2vh;
 }
@@ -1209,12 +1215,15 @@ label {
 .mainni {
     display: flex;
     flex-direction: row;
+    font-weight: 600;
+    font-size: 2.6vh;
 }
 
 .mainim {
     height: 100px;
     max-width: 100vw;
     margin: 1.2vh;
+    font-weight: 400;
 }
 
 #sc1 {
@@ -1245,6 +1254,30 @@ label {
     background-image: url('../images/stibarc_screenshot8.png');
 }
 
+#rt {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), #ffffff),
+    url('../images/services_stibarc_theme.png');
+}
+
+#recor {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), #7dabb8),
+    url('../images/services_records.png');
+}
+
+#teli {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), #808080),
+    url('../images/services_tv.png');
+}
+
+#barc {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), #497dff),
+    url('../images/services_stibarc.png');
+}
+
 .backsca {
     background-repeat: no-repeat;
     overflow: hidden;
@@ -1268,4 +1301,12 @@ label {
   
   ::-webkit-scrollbar-thumb:hover {
     background: var(--primaryShapeLight);
+  }
+
+  .tma {
+      margin-top: 10.4vh;
+  }
+
+  .detr {
+      color: black;
   }
