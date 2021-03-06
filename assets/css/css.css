@@ -47,6 +47,10 @@ body {
     background-image: url(../images/banner_dark.png) ; 
 }
 
+.records {
+    background-image: url(../images/records_banner.png) ; 
+}
+
 .mar-top {
     position: absolute;
     top: 50%;
@@ -1278,6 +1282,48 @@ label {
     url('../images/services_stibarc.png');
 }
 
+#borealis {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), #23157a),
+    url('../images/services_borealis.png');
+}
+
+#herron {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), #a1a66a),
+    url('../images/team_herronjo.png');
+}
+
+#bunn {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), #b1b1b1),
+    url('../images/team_bunnbuns.png');
+}
+
+#allu {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), #af3257),
+    url('../images/team_alluthus.png');
+}
+
+#aldeen {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), #4d696a),
+    url('../images/team_aldeenyo.png');
+}
+
+#ogel {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), #d41e1a),
+    url('../images/team_ogelbeh.png');
+}
+
+#savaka {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),
+    url('../images/team_savaka.png');
+}
+
 .backsca {
     background-repeat: no-repeat;
     overflow: hidden;
@@ -1310,3 +1356,25 @@ label {
   .detr {
       color: black;
   }
+
+  @media only screen and (max-width: 740px) {
+    .fif {
+        width: 150px;
+        height: 150px;
+    }
+    .mainim {
+        height: 55px;
+    }
+}
+
+.mainimgg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 30vh;
+}
+
+.underline {
+    text-decoration: underline;
+}
