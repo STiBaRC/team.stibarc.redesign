@@ -204,6 +204,7 @@ p {
 
 .copyri {
     font-size: 0.8rem;
+    color: white;
 }
 
 .addic {
@@ -860,9 +861,6 @@ label {
 .nav .logo.text {
     font-size: 2rem;
     font-weight: 700;
-}
-.nav .logo img {
-    height: 25px;
 }
 .nav a:not(.button){
     color: var(--backgroundLight);
