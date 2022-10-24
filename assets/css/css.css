@@ -1293,10 +1293,10 @@ label {
     url('../images/team_herronjo.png');
 }
 
-#bunn {
+#flo {
     background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0), #b1b1b1),
-    url('../images/team_bunnbuns.png');
+    url('../images/team_flolon.png');
 }
 
 #allu {
@@ -1317,10 +1317,10 @@ label {
     url('../images/team_ogelbeh.png');
 }
 
-#savaka {
+#mkps {
     background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0), #000000),
-    url('../images/team_savaka.png');
+    url('../images/team_mkps.png');
 }
 
 .backsca {
