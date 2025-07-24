@@ -1,0 +1,13 @@
+name: Deploy main to production
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy
+    uses: STiBaRC/web-deployment/.github/workflows/deploy-general-purpose-sprucehttp-web.yaml@main
