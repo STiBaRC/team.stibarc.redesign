@@ -40,8 +40,7 @@ body {
 }
 
 .stibarc {
-    background-image: url(../images/stibarc_banner_text.png) ;
-    background-position: center;
+    background-color: #49B9CA;
 }
 
 .default {
@@ -138,7 +137,7 @@ p {
 }
 
 .bg {
-    background-color: rgb(44, 99, 165);
+    background-color: #54cbdd;
 }
 
 .aw {
