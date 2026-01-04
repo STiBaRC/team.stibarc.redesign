@@ -1,120 +1,213 @@
-<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>STiBaRC Team</title>
-    <link rel="icon" type="image/png" href="assets/images/fav.png">
-    <link rel="stylesheet" href="https://stibarc.github.io/stibarc_redesign/css/global.css">
-    <link rel="stylesheet" href="https://stibarc.github.io/stibarc_redesign/css/page-specific/homepage.css">
-    <link rel="stylesheet" href="/assets/css/themes/default.css">
-    <link rel="stylesheet" href="https://stibarc.github.io/stibarc_redesign/css/stibarc-css.css">
-    <link rel="stylesheet" href="assets/css/css.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="assets/js/js.js"></script>
+    <meta charset="utf-8" />
+    <title>STiBaRC Team Home Page - Official STiBaRC, LLC Site</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=5, user-scalable=yes, width=device-width">
+    <link rel="icon" type="image/png" href="/assets/img/fav.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/theme/default.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://kit.fontawesome.com/e12765ec05.js" crossorigin="anonymous"></script>
+    <script src="assets/js/nav.js"></script>
     <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="STiBaRC Team">
-    <meta property="og:description" content="The STiBaRC Team is a group of young adults who create weird and wacky things on the Internet.">
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="STiBaRC Team Home Page - Official STiBaRC, LLC Site" />
+    <meta property="og:description"
+        content="We are the STiBaRC Team, a group of developers creating bizzare things on the web—from social media services to an in-house record label.">
     <meta property="og:url" content="https://team.stibarc.com/">
-    <meta property="og:site_name" content="STiBaRC Team">
-    <meta property="og:image" content="https://stibarc.github.io/team.stibarc.redesign/assets/images/banner.jpg" />
-    <meta property="og:image:secure_url"
-        content="https://stibarc.github.io/team.stibarc.redesign/assets/images/banner.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta name="keywords" content="stibarc,stibarc records,stibarc team,herronjo" />
-    <meta name="description" content="The STiBaRC Team is a group of young adults who create weird and wacky things on the Internet.">
+    <meta property="og:image" content="https://team.stibarc.com/assets/img/graph.jpg" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@stibarc_team">
+    <meta name="twitter:image" content="https://team.stibarc.com/assets/img/graph.jpg">
+    <meta name="description"
+        content="We are the STiBaRC Team, a group of developers creating bizzare things on the web—from social media services to an in-house record label.">
+    <meta name="author" content="STiBaRC Team">
+    <meta property="og:site_name" content="STiBaRC, LLC">
+    <meta name="twitter:creator" content="@stibarc_team">
 </head>
 
 <body>
-    <div class="nav" id="na">
-        <div class="nav-container" id="va">
-            <a class="logo" href="./"><img src="assets/images/wordmark.png" alt="STiBaRC Logo"></a>
-            <span class="flex-grow"></span>
-            <div id="desk">
-                <a class="button dropdown" href="about.html">About</a>
-                <a class="button dropdown" href="products/stibarc.html">STiBaRC</a>
-                <a class="button dropdown" href="products/">Services & clients</a>
-                <a class="button dropdown" href="products/records.html">Records</a>
+    <div class="landing flex main">
+        <h1 class="text-shadow">STiBaRC Team</h1>
+        <h2 class="text-shadow margblock">Making bizzare things on the web since 2017</h2>
+        <a class="button landingbtn" href="/about">Learn More</a>
+    </div>
+    <!-- Article mockups -->
+    <div class="container break hide">
+        <h1>Latest Updates</h1>
+        <div class="news">
+            <div class="card article">
+                <div class="articlephoto">
+                    <img src="/assets/img/landing.jpg" class="photoarticle" />
+                </div>
+                <div class="container">
+                    <div class="flex no-direction cbreak">
+                        <div class="column">
+                            Author
+                        </div>
+                        <div class="column right">
+                            Date
+                        </div>
+                    </div>
+                    <h2>Article header</h2>
+                    <p class="article-summary">Article summary</p>
+                </div>
             </div>
-            <button class="button dropdown" id="ico"><i class="material-icons"
-                    style="vertical-align: middle; line-height: 5px; font-size: 1.75rem;">menu</i></button>
-        </div>
-        <div class="aw" id="dropdowns">
-            <div class="panel" id="mble">
-                <i href="javascript:;" id="exita1" class="material-icons">
-                    clear
-                </i>
-                <div class="break"></div>
-                <a href="./" class="nb-m first button dropdown">
-                    Home
-                </a>
-                <div class="break"></div>
-                <a href="about.html" class="nb-m button dropdown">
-                    About
-                </a>
-                <div class="break"></div>
-                <a href="products/stibarc.html" class="nb-m button dropdown">
-                    STiBaRC
-                </a>
-                <div class="break"></div>
-                <a href="products/" class="nb-m button dropdown">
-                    Services & clients
-                </a>
-                <div class="break"></div>
-                <a href="products/records.html" class="nb-m button dropdown">
-                    Records
-                </a>
+            <div class="card article">
+                <div class="articlephoto">
+                    <img src="/assets/img/landing.jpg" class="photoarticle" />
+                </div>
+                <div class="container">
+                    <div class="flex no-direction cbreak">
+                        <div class="column">
+                            Author
+                        </div>
+                        <div class="column right">
+                            Date
+                        </div>
+                    </div>
+                    <h2>Article header</h2>
+                    <p class="article-summary">Article summary</p>
+                </div>
+            </div>
+            <div class="card article">
+                <div class="articlephoto">
+                    <img src="/assets/img/landing.jpg" class="photoarticle" />
+                </div>
+                <div class="container">
+                    <div class="flex no-direction cbreak">
+                        <div class="column">
+                            Author
+                        </div>
+                        <div class="column right">
+                            Date
+                        </div>
+                    </div>
+                    <h2>Article header</h2>
+                    <p class="article-summary">Article summary</p>
+                </div>
+            </div>
+            <div class="card article">
+                <div class="articlephoto">
+                    <img src="/assets/img/landing.jpg" class="photoarticle" />
+                </div>
+                <div class="container">
+                    <div class="flex no-direction cbreak">
+                        <div class="column">
+                            Author
+                        </div>
+                        <div class="column right">
+                            Date
+                        </div>
+                    </div>
+                    <h2>Article header</h2>
+                    <p class="article-summary">Article summary</p>
+                </div>
             </div>
         </div>
     </div>
-    <div id="bod">
-        <div class="banner sti">
-        </div>
+    <!-- Article mockups -->
+    <div class="landing mini flex-evenly stibarc break">
+        <img src="/assets/img/stibarc_wordmark_mascot.png" alt="STiBaRC Logo" class="landingimg">
+        <h2 class="text-shadow">A simple social media site—redesigned with full of new features</h2>
+        <a class="button landingbtn-alt" href="/products/stibarc/">Learn More</a>
+    </div>
+    <div class="landing mini flex-evenly thinkblog break">
+        <img src="/assets/img/thinkblog_wordmark.svg" alt="STiBaRC Records Logo" class="landingimg">
+        <h2 class="text-shadow">Blog away with the latest product from the STiBaRC Team</h2>
+        <a class="button landingbtn-alt" href="/products/thinkblog/">Learn More</a>
+    </div>
+    <div class="landing mini flex-evenly records break">
+        <img src="/assets/img/records_logo.png" alt="STiBaRC Records Logo" class="landingimg recordslogo">
+        <h2 class="text-shadow">An indie record label established in 2020</h2>
+        <a class="button landingbtn" href="/products/records" target="_blank">Learn More</a>
+    </div>
+    <div class="navigation" id="desktopnav">
         <div class="container">
-            <div class="space"></div>
-            <a class="card post" href="about.html">
-                <div class="container">
-                    <span>
-                        <p class="texts-head2">About us</p>
-                        <p class="texts-ssmall">Just your average group of young adults who create wacky
-                            things on the web.</p>
-                        <button class="button center space cards-but">Learn more</button>
-                    </span>
-                </div>
+            <a href="/" class="text-decoration-none">
+                <img src="/assets/img/team_wordmark_text_only.png" alt="STiBaRC Team Logo" class="imgheader">
             </a>
-            <a class="card post" href="products/records.html">
-                <div class="container">
-                    <span>
-                        <p class="texts-head2">STiBaRC Records</p>
-                        <p class="texts-ssmall">An online independent label from the team that brought you STiBaRC.</p>
-                        <button class="button center space cards-but">Learn more</button>
-                    </span>
-                </div>
-            </a>
-
-            <a class="card post" href="products/">
-                <div class="container">
-                    <span>
-                        <p class="texts-head2">More from the STiBaRC Team</p>
-                        <p class="texts-ssmall">View all products and services from the STiBaRC Team</p>
-                        <button class="button center space cards-but">View all</button>
-                    </span>
-                </div>
-            </a>
+            <span class="nav-links">
+                <a href="/" class="button active navbtn">Home</a>
+                <a href="/about" class="button navbtn">About</a>
+                <a href="/products" class="button navbtn">Products</a>
+                <a href="/resources" class="button navbtn">Resources</a>
+            </span>
         </div>
-        <div class="space"></div>
     </div>
-    <footer class="footer-container bg" id="fa">
-        <a class="footlogo" href="./"><img src="assets/images/wordmark.png" alt="STiBaRC Logo"></a>
-        <div style="flex-direction: row; margin: 10px;">
-            <a href="https://stibarc.com/tos.html" target="_blank" class="button but-fot">Terms of Service</a>
-            <a href="https://stibarc.com/privacy.html" target="_blank" class="button but-fot">Privacy</a>
-            <a href="contact.html" class="button but-fot">Contact us</a>
+    <div class="footer">
+        <div class="container flex-center tca">
+            <span class="footer-logo">
+                <img src="/assets/img/stibarc_wordmark.png" alt="STiBaRC LLC Logo" class="imgfooter">
+            </span>
+            <span class="flex-grow"></span>
+            <span class="copyright">
+                &copy; 2025 STiBaRC, LLC
+            </span>
         </div>
-        <div class="copyri">
-            &copy; 2025 STiBaRC, LLC.
+        <div class="container flex flex-center-justify footlinks">
+            <a href="/legal" class="text-decoration-footer footer-link" title="Privacy Policy & Legal">Privacy</a>
+            <span class="separator onmob">●</span>
+            <a href="/terms-of-service" class="text-decoration-footer footer-link" title="Terms of Service">Terms</a>
+            <span class="separator onmob">●</span>
+            <a href="/contact" class="text-decoration-footer footer-link" title="Contact Us">Contact</a>
         </div>
-    </footer>
+        <div class="container flex-center tca tca-2">
+            <span class="flex-grow"></span>
+            <span class="socials">
+                <a href="https://x.com/stibarc_team" target="_blank" class="text-decoration-footer social-link"
+                    title="STiBaRC Team on X (Twitter)">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://facebook.com/stibarc" target="_blank" class="text-decoration-footer social-link"
+                    title="STiBaRC on Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com/stibarc_" target="_blank" class="text-decoration-footer social-link"
+                    title="STiBaRC on Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://bsky.app/profile/stibarc.com" target="_blank"
+                    class="text-decoration-footer social-link" title="STiBaRC on Bluesky">
+                    <i class="fa-brands fa-bluesky"></i>
+                </a>
+                <a href="https://threads.com/@stibarc_" target="_blank" class="text-decoration-footer social-link"
+                    title="STiBaRC on Threads">
+                    <i class="fa-brands fa-threads"></i>
+                </a>
+            </span>
+        </div>
+    </div>
+    <div class="navigation" id="mobilenav">
+        <div class="container">
+            <a href="/" class="text-decoration-none">
+                <img src="/assets/img/mascot_jimbo.png" alt="STiBaRC Team Logo" class="imgheader mobile">
+            </a>
+            <span class="nav-links">
+                <a href="javascript:;" class="button active menubtn" id="mobilemenu">
+                    <picture>
+                        <source srcset="/assets/img/hamburger_menu_dark.svg" media="(prefers-color-scheme: dark)">
+                        <img src="/assets/img/hamburger_menu.svg">
+                    </picture>
+                </a>
+            </span>
+        </div>
+    </div>
+    <div class="mobilemainmenu" id="mobilebg">
+        <div class="mobilepanel" id="mobilepanel">
+            <a href="javascript:;" class="button active exitbtn" id="mobilemenuexit">
+                <picture>
+                    <source srcset="/assets/img/exit_x_dark.svg" media="(prefers-color-scheme: dark)">
+                    <img src="/assets/img/exit_x.svg">
+                </picture>
+            </a>
+            <a href="/" class="menuelements">Home</a>
+            <a href="/about" class="menuelements">About</a>
+            <a href="/products" class="menuelements">Products</a>
+            <a href="/resources" class="menuelements">Resources</a>
+        </div>
+    </div>
 </body>
